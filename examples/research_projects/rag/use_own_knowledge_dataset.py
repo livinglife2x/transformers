@@ -5,7 +5,6 @@ from functools import partial
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from typing import List, Optional
-
 import faiss
 import torch
 from datasets import Features, Sequence, Value, load_dataset
